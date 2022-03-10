@@ -146,6 +146,7 @@ const IndexPage = () => {
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉🔥🔥🔥
           🎉🎉🎉🔥🔥🔥
+          🎉🎉🎉🔥🔥🔥
         </span>
       </h1>
 
