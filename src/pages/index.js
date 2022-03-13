@@ -1,4 +1,7 @@
+// Step 1: Import React
 import * as React from "react"
+import { Link } from "gatsby"
+import Layout from "../components/layout"
 
 // styles
 const pageStyles = {
@@ -131,8 +134,23 @@ const links = [
   },
 ]
 
-// markup
+
+
+// Step 2: Define your component
 const IndexPage = () => {
+  return (
+    <Layout pageTitle="Homepage">
+      <p>
+      I'm making this by following the Gatsby Tutorial
+      </p>
+    </Layout>
+     
+  )
+}
+
+
+// markup
+/* const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title> Home Page </title>
@@ -199,5 +217,7 @@ const IndexPage = () => {
     </main>
   )
 }
+*/
 
+// Step 3: Export your component
 export default IndexPage
