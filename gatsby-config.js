@@ -1,7 +1,8 @@
 module.exports = {
     siteMetadata: {
-      title: `My Gatsby Site`,
+      title: `Ningli's Gatsby Site`,
         siteUrl: `https://www.yourdomain.tld`,
+          
     },
     plugins: [
 
