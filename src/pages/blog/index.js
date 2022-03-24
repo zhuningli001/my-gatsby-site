@@ -21,8 +21,7 @@ const Blog = ({data}) =>{
                             </Link>
                             <p> {node.frontmatter.date} </p>                    
                             
-                        </article>;
-                        
+                        </article>;                        
                        
                             }
                         )
@@ -31,7 +30,7 @@ const Blog = ({data}) =>{
                
 
 
-                <p>Hello, this is Ningli's blog.</p>
+                <p>Hello, this is Peppa Pig's blog about her family.</p>
                 <div className='BlogImages' display="grid" fontSize='1px' >
                     <ul> 
                         <p>this is mummy_pig {} </p>
